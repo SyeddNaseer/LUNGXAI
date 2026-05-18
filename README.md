@@ -155,8 +155,14 @@ Contributions, bug reports, and feature suggestions are welcome. Please open an 
 
 For questions or collaboration inquiries, please contact:
 
-**Author**: Syed Naseer
-**GitHub**: [@SyeddNaseer](https://github.com/SyeddNaseer)
+**Author**: Dr Syed Naseer Ahmad Shah1,2 |  Dr Shaban Ahmad1,3,  | Prof Rafat Parveen1
+**Email**: *syed.naseer@galgotiasuniversity.edu.in, Shaban@plen.ku.dk, rparveen@jmi.ac.in*
+
+**Institutions**: *\
+1 Department of Computer Science, Jamia Millia Islamia, New Delhi-110025, India.
+2. Department of Information Technology at the School of Business, Galgotias University, Greater Noida, India.  
+2 MEB Section, Department of Plant and Environmental Sciences, Faculty of Sciences, University of Copenhagen, Frederiksberg C- 1871, Denmark.*
+
 
 ---
 
@@ -165,5 +171,3 @@ For questions or collaboration inquiries, please contact:
 If you use LUNGXAI in your research, please cite the associated manuscript (details to be added upon publication).
 
 ---
-
-> *LUNGXAI effectively bridges the gap between predictive accuracy and model interpretability, significantly advancing AI applications in cancer genomics.*
