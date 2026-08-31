@@ -26,7 +26,7 @@ Biological Interpretation**
 
 ------------------------------------------------------------------------
 
-# 🔬 Workflow
+# Workflow
 
 <p align="center">
   <img src="Workflow.png" alt="LUNGXAI workflow" width="850">
