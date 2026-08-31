@@ -26,6 +26,16 @@ Biological Interpretation**
 
 ------------------------------------------------------------------------
 
+# 🔬 Workflow
+
+<p align="center">
+  <img src="Workflow.png" alt="LUNGXAI workflow" width="850">
+</p>
+
+**Overall workflow of LUNGXAI.** Gene expression data from GEO, TCGA, and ICGC are integrated to construct a unified dataset containing Normal, LUAD, and LUSC samples. The data undergo common-gene identification, missing-value imputation, dataset merging, duplicate removal, log2 transformation, ComBat-based batch correction, UMAP-based quality verification, Z-score normalisation, and SMOTE-based class balancing. The processed gene expression profiles are analysed using a 1D Convolutional Neural Network (CNN) with stratified 10-fold cross-validation for multi-class lung cancer classification. Model performance is assessed using multiple classification and cross-validation metrics, followed by LIME-based explainability to quantify local and fold-wise gene contributions and derive aggregated gene importance rankings. The identified genes are subsequently analysed through KEGG, GO, and Reactome pathway enrichment and gene interaction/network analysis, providing biologically interpretable insights and supporting potential biomarker discovery.
+
+------------------------------------------------------------------------
+
 # Features
 
 -   Multi-source dataset integration (GEO, TCGA and ICGC)
@@ -33,7 +43,7 @@ Biological Interpretation**
 -   Gene-wise median imputation
 -   Batch effect correction using ComBat
 -   Per-cohort log2 transformation
--   Z-score normalization
+-   Z-score normalisation
 -   UMAP verification of batch correction
 -   Class balancing using SMOTE
 -   1D CNN for multi-class classification
